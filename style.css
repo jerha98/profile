@@ -1,0 +1,97 @@
+body {
+  background-color: #f7f9fc;
+  font-family: "Sunflower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #f18975;
+  line-height: 1.5;
+}
+header{
+font-family: "Fjalla One", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #f18975;
+}
+
+a {
+text-decoration: none;
+color: #f18975;
+}
+
+.icons:hover {
+color: #ef5f43;
+transition-duration: 0.3s;
+}
+
+img {
+border-radius: 5px;
+width: 100px;
+}
+
+.container{
+margin: 0 auto;
+width: 50%;
+}
+
+.button{
+text-decoration: none;
+color: #f7f9fc;
+background-color: #f18975;
+margin: 0 auto;
+padding: 15px;
+border-radius: 5px;
+position: absolute;
+bottom: 20px;
+left: 50%;
+transform: translateX(-50%);
+width: auto;
+padding: 10px 20px;
+}
+
+.button:hover{
+background-color: #ef5f43;
+transition: 0.3s ease;
+}
+
+.card{
+text-align: center;
+width: 100%;
+background-color: #063952;
+border-radius: 5px;
+box-shadow: 2px 4px 2px #063952;
+position: relative;
+}
+
+p {
+padding-bottom: 75px;
+}
+
+.list-inline > li {
+display: inline-block;
+padding: 0px 20px;
+font-size: 30px;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
